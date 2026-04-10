@@ -1,0 +1,275 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1764322541860727, "dur":14061, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322541874792, "dur":58, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322541874872, "dur":484, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322541875379, "dur":1593, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322541876973, "dur":125004, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322542001978, "dur":137, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322542002115, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322542002369, "dur":891, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1764322541875332, "dur":1646, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764322541876981, "dur":877, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764322541878479, "dur":169, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1764322541878650, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1764322541878719, "dur":16956, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1764322541896025, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player7c6b9fae-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1764322541896251, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Repo\\Unity\\2022.3.52f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1764322541878650, "dur":17763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1764322541896919, "dur":177, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1764322541897301, "dur":91046, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1764322541988871, "dur":12397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1764322541988870, "dur":12400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1764322542001287, "dur":621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1764322541875353, "dur":1636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764322541876992, "dur":137, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764322541877130, "dur":99, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764322541877229, "dur":756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764322541896175, "dur":129, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1764322541896533, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1764322541899881, "dur":5929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1764322541905820, "dur":96162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764322541875346, "dur":1636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764322541876985, "dur":167, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764322541877184, "dur":875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1764322541878059, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1764322541881171, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1764322541882261, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541884253, "dur":2287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541886550, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541886550, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541886679, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541889071, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541891864, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541896595, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541900291, "dur":5587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1764322541905889, "dur":96086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764322541875785, "dur":1499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764322541877284, "dur":577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764322541877872, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764322541887924, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1764322541888978, "dur":3591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1764322541892638, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1764322541892692, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1764322541897168, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1764322541901371, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1764322541903747, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1764322541906138, "dur":95818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764322541875440, "dur":1579, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764322541877021, "dur":133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764322541877155, "dur":914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764322541878073, "dur":390, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":5, "ts":1764322541878070, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown.exe" }}
+,{ "pid":12345, "tid":5, "ts":1764322541880615, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764322541878467, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown.exe" }}
+,{ "pid":12345, "tid":5, "ts":1764322541881314, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1764322541885427, "dur":410, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764322541885425, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764322541885844, "dur":222, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1764322541886069, "dur":2932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764322541889188, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764322541893030, "dur":4421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764322541897473, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1764322541901507, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1764322541903732, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1764322541906203, "dur":95746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764322541875456, "dur":1672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764322541877130, "dur":113, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764322541877244, "dur":692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1764322541887678, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1764322541889220, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764322541892897, "dur":4365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764322541897283, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1764322541900883, "dur":6588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1764322541907481, "dur":94504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764322541875478, "dur":1689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764322541877167, "dur":897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1764322541878068, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Repo\\Unity\\2022.3.52f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541878064, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541879607, "dur":6660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541886289, "dur":364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541886288, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541886664, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541889825, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541893373, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541898112, "dur":5356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1764322541903498, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1764322541905409, "dur":96565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764322541875494, "dur":1686, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764322541877180, "dur":881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1764322541878066, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Repo\\Unity\\2022.3.52f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541878061, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541879574, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541882191, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541884702, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541887028, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541890613, "dur":4046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541894678, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541898676, "dur":6009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1764322541904692, "dur":97286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1764322541875514, "dur":1679, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1764322541877193, "dur":839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1764322541878036, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Repo\\Unity\\2022.3.52f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1764322541878032, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1764322541880585, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1764322541882400, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1764322541884895, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1764322541887144, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1764322541890836, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1764322541895276, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1764322541899974, "dur":6419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1764322541906406, "dur":95560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1764322541875527, "dur":1669, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1764322541877197, "dur":827, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1764322541878046, "dur":71, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1764322541880632, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1764322541883039, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541885791, "dur":416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541885791, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541886229, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541888973, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541891995, "dur":4357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541896389, "dur":4471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541900917, "dur":14145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1764322541915085, "dur":86874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1764322541875564, "dur":1642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1764322541877207, "dur":814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1764322541879641, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1764322541882028, "dur":4685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541886722, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541886722, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541886798, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541890445, "dur":5062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541895535, "dur":4956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541900508, "dur":6086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1764322541906616, "dur":95361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1764322541875576, "dur":1634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1764322541877210, "dur":783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1764322541896571, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1764322541898315, "dur":5911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1764322541904244, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1764322541906168, "dur":95802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1764322541875600, "dur":1636, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1764322541877237, "dur":747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1764322541896250, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1764322541901458, "dur":141, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1764322541897484, "dur":4124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1764322541901907, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1764322541903992, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1764322541907642, "dur":94338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1764322541875586, "dur":1638, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1764322541877224, "dur":813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1764322541878037, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1764322541880485, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1764322541882247, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1764322541884052, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":14, "ts":1764322541886765, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":14, "ts":1764322541890279, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1764322541894276, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1764322541898193, "dur":7017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1764322541905228, "dur":96747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1764322541875619, "dur":1622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1764322541877242, "dur":789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1764322541878031, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1764322541880510, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1764322541882132, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1764322541884987, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":15, "ts":1764322541886910, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1764322541890302, "dur":3979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1764322541894304, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1764322541898577, "dur":6254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1764322541904845, "dur":97143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1764322541875640, "dur":1610, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1764322541877250, "dur":743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1764322541896698, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1764322541899534, "dur":5084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1764322541904627, "dur":97362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1764322541875661, "dur":1595, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1764322541877256, "dur":676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1764322541889412, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1764322541888176, "dur":1308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":17, "ts":1764322541889512, "dur":3187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1764322541892711, "dur":3962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1764322541896698, "dur":3664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1764322541900379, "dur":5808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1764322541906198, "dur":95752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1764322541875672, "dur":1588, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1764322541877260, "dur":666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1764322541880447, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1764322541882066, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541882917, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541884833, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541887012, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541890271, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541893604, "dur":4015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541897641, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1764322541902402, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":18, "ts":1764322541903538, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/resources.assets" }}
+,{ "pid":12345, "tid":18, "ts":1764322541904807, "dur":97147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1764322541875700, "dur":1563, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1764322541877264, "dur":658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1764322541877925, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Repo\\Unity\\2022.3.52f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":19, "ts":1764322541877922, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1764322541880457, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":19, "ts":1764322541882198, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541884068, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541885727, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541885726, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541886178, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541888996, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541896085, "dur":184, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1764322541891950, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541896386, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541900239, "dur":5390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1764322541905640, "dur":96312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1764322541875713, "dur":1557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1764322541877270, "dur":626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1764322541877896, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":20, "ts":1764322541879657, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":20, "ts":1764322541882058, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541883033, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541884908, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541886619, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541886619, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541886685, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541889245, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541892576, "dur":4215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541896813, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541900646, "dur":6526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1764322541907186, "dur":94772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1764322541875739, "dur":1535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1764322541877274, "dur":588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1764322541896912, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":21, "ts":1764322541900282, "dur":6892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1764322541907187, "dur":94782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1764322541875751, "dur":1526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1764322541877277, "dur":586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1764322541879725, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":22, "ts":1764322541882012, "dur":3619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541885644, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Unity\\CashbackCountdown\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541885643, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541885711, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541887533, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541891140, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541895935, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541899368, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1764322541905668, "dur":96304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1764322541875770, "dur":1511, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1764322541877281, "dur":582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1764322541880116, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":23, "ts":1764322541881886, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":23, "ts":1764322541884758, "dur":2196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":23, "ts":1764322541886966, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1764322541890164, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1764322541894107, "dur":3642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1764322541897781, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1764322541903982, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":23, "ts":1764322541909216, "dur":92737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1764322541875427, "dur":1567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1764322541876997, "dur":139, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1764322541877136, "dur":133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1764322541877269, "dur":715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1764322541896628, "dur":2721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":24, "ts":1764322541899371, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bombetta/Desktop/Nuova cartella/CashbackCountdown_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1764322541904602, "dur":97391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1764322542004965, "dur":566, "ph":"X", "name": "ProfilerWriteOutput" }
+,
